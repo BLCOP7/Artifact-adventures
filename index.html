@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artifact Adventures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Artifact Adventures</h1>
+        <div id="location">Location: Giza Pyramids, Egypt</div>
+        <div id="question">Solve the puzzle: What is the shape of the base of the Great Pyramid?</div>
+        <div id="options">
+            <button onclick="checkAnswer(0)">Square</button>
+            <button onclick="checkAnswer(1)">Triangle</button>
+            <button onclick="checkAnswer(2)">Circle</button>
+            <button onclick="checkAnswer(3)">Hexagon</button>
+        </div>
+        <div id="result"></div>
+        <button id="next-button" onclick="nextQuestion()">Next Puzzle</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
